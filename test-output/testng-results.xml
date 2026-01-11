@@ -1,27 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-16T08:59:36 IST" name="Default suite" finished-at="2025-10-16T09:00:08 IST" duration-ms="32083">
+  <suite started-at="2026-01-11T08:32:23 IST" name="Groups" finished-at="2026-01-11T08:32:23 IST" duration-ms="133">
     <groups>
+      <group name="mac.Smoke">
+        <method signature="groupsDemo.test1()[pri:0, instance:day4.groupsDemo@51399530]" name="test1" class="day4.groupsDemo"/>
+      </group> <!-- mac.Smoke -->
+      <group name="Sanity">
+        <method signature="groupsDemo.test2()[pri:0, instance:day4.groupsDemo@51399530]" name="test2" class="day4.groupsDemo"/>
+      </group> <!-- Sanity -->
+      <group name="linux.Sanity">
+        <method signature="groupsDemo.test3()[pri:0, instance:day4.groupsDemo@51399530]" name="test3" class="day4.groupsDemo"/>
+      </group> <!-- linux.Sanity -->
+      <group name="Smoke">
+        <method signature="groupsDemo.test2()[pri:0, instance:day4.groupsDemo@51399530]" name="test2" class="day4.groupsDemo"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-10-16T08:59:36 IST" name="Default test" finished-at="2025-10-16T09:00:08 IST" duration-ms="32083">
-      <class name="day2.parent">
-        <test-method signature="launchBrowser()[pri:0, instance:day2.parent@639c2c1d]" started-at="2025-10-16T08:59:36 IST" name="launchBrowser" finished-at="2025-10-16T08:59:58 IST" duration-ms="22160" status="PASS">
+    <test started-at="2026-01-11T08:32:23 IST" name="Test" finished-at="2026-01-11T08:32:23 IST" duration-ms="133">
+      <class name="day4.groupsDemo">
+        <test-method signature="test1()[pri:0, instance:day4.groupsDemo@51399530]" started-at="2026-01-11T08:32:23 IST" name="test1" finished-at="2026-01-11T08:32:23 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-      </class> <!-- day2.parent -->
-      <class name="day2.dependsondemo">
-        <test-method signature="launchBrowser()[pri:0, instance:day2.dependsondemo@51399530]" started-at="2025-10-16T08:59:58 IST" name="launchBrowser" finished-at="2025-10-16T09:00:04 IST" duration-ms="6347" status="PASS">
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:day4.groupsDemo@51399530]" started-at="2026-01-11T08:32:23 IST" name="test2" finished-at="2026-01-11T08:32:23 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="login()[pri:0, instance:day2.dependsondemo@51399530]" started-at="2025-10-16T09:00:04 IST" name="login" finished-at="2025-10-16T09:00:08 IST" depends-on-methods="day2.parent.launchBrowser" duration-ms="3379" status="PASS">
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:day4.groupsDemo@51399530]" started-at="2026-01-11T08:32:23 IST" name="test3" finished-at="2026-01-11T08:32:23 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- day2.dependsondemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test3 -->
+      </class> <!-- day4.groupsDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Groups -->
 </testng-results>

@@ -2,7 +2,7 @@
 <testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-12T20:44:07 IST" name="Groups" finished-at="2025-10-12T20:44:07 IST" duration-ms="104">
+  <suite started-at="2026-01-11T08:29:20 IST" name="Groups" finished-at="2026-01-11T08:29:20 IST" duration-ms="78">
     <groups>
       <group name="mac.Smoke">
         <method signature="groupsDemo.test1()[pri:0, instance:day4.groupsDemo@479d31f3]" name="test1" class="day4.groupsDemo"/>
@@ -17,17 +17,17 @@
         <method signature="groupsDemo.test2()[pri:0, instance:day4.groupsDemo@479d31f3]" name="test2" class="day4.groupsDemo"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-10-12T20:44:07 IST" name="Test" finished-at="2025-10-12T20:44:07 IST" duration-ms="104">
+    <test started-at="2026-01-11T08:29:20 IST" name="Test" finished-at="2026-01-11T08:29:20 IST" duration-ms="78">
       <class name="day4.groupsDemo">
-        <test-method signature="test1()[pri:0, instance:day4.groupsDemo@479d31f3]" started-at="2025-10-12T20:44:07 IST" name="test1" finished-at="2025-10-12T20:44:07 IST" duration-ms="11" status="PASS">
+        <test-method signature="test1()[pri:0, instance:day4.groupsDemo@479d31f3]" started-at="2026-01-11T08:29:20 IST" name="test1" finished-at="2026-01-11T08:29:20 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:day4.groupsDemo@479d31f3]" started-at="2025-10-12T20:44:07 IST" name="test2" finished-at="2025-10-12T20:44:07 IST" duration-ms="1" status="PASS">
+        <test-method signature="test2()[pri:0, instance:day4.groupsDemo@479d31f3]" started-at="2026-01-11T08:29:20 IST" name="test2" finished-at="2026-01-11T08:29:20 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:0, instance:day4.groupsDemo@479d31f3]" started-at="2025-10-12T20:44:07 IST" name="test3" finished-at="2025-10-12T20:44:07 IST" duration-ms="2" status="PASS">
+        <test-method signature="test3()[pri:0, instance:day4.groupsDemo@479d31f3]" started-at="2026-01-11T08:29:20 IST" name="test3" finished-at="2026-01-11T08:29:20 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
