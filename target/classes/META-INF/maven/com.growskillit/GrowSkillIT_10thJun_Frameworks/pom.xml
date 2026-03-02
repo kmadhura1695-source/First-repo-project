@@ -56,12 +56,13 @@
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 
 
-		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>4.36.0</version>
-		</dependency>
-
+		<!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.40.0</version>
+    <scope>compile</scope>
+</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>

@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name=" Testng session Suite">
+<test name=" different testng feature Test">
+<classes>
+</classes>
+</test>
+</suite>
